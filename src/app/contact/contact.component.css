@@ -1,0 +1,48 @@
+.bg{
+  background: #fff url("../../assets/img/sectionbg.png")no-repeat top right;
+  background-size:cover;
+  height:700px;
+  border-bottom: 3px solid rgb(51, 152, 255);
+  margin:0px;
+  padding:0px;
+
+}
+
+p,h1{
+  margin-left:15%;
+}
+.hline-bottom {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
+}
+
+h1,p{
+  animation: chainReaction 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes chainReaction {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1{
+  animation-delay: .3s;
+};
+p{
+  animation-delay: 1s;
+};
+#company_contact{
+  font-weight: bolder;
+
+}
+.padding-y{
+  margin-top:32px;
+  margin-bottom:32px;
+}
+

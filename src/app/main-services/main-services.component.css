@@ -1,0 +1,24 @@
+.img-bg{
+  padding:4%;
+  background-color: black;
+}
+img{
+  position: relative;
+  vertical-align: center;
+  bottom:150px;
+  justify-content: center;
+}
+.img-text{
+  color:#fff;
+  font-family: 'Roboto','sans-serif';
+  line-height: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  position:relative;
+  bottom:130px;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}
+

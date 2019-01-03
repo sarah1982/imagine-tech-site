@@ -1,0 +1,36 @@
+p{
+  color:#fff;
+  font-family: 'Roboto','sans-serif';
+  line-height: 1rem;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+.section-footer{
+background-color: black;}
+a{
+  text-decoration: none;
+}
+.bg-footer{
+  background-color: black;
+}
+
+#contact{
+  font-size: 1rem;
+  font-family: 'Roboto','sans-serif';
+  line-height: 1rem;
+  font-weight: 200;
+}
+
+span a{
+  text-decoration: none;
+  color:white;
+}
+ #twitter:hover{
+  color:#38A1F3;
+}
+ #facebook:hover{
+  color:#0084FF;
+}
+#linkedin:hover{
+  color:#0077B5;
+}
