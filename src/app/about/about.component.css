@@ -1,14 +1,26 @@
+.container{
+
+  width:100%;
+  height:100%;
+  margin-top:50px;
+  padding:0;
+
+}
+.hero-text{
+  color:rgb(0, 98, 204);
+  text-align: justify;
+  line-height: 2rem;
+}
 .bg{
   background: #fff url("../../assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
-  height:700px;
   border-bottom: 3px solid rgb(51, 152, 255);
   margin:0px;
   padding:0px;
 
 }
 
-p,h1{
+p,h1,h5{
   margin-left:20%;
 }
 .hline-bottom {
