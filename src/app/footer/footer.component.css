@@ -1,9 +1,12 @@
+.container{
+  margin-top:0px;
+}
 p{
   color:#fff;
-  font-family: 'Roboto','sans-serif';
+  font-family: 'Oswald','sans-serif';
   line-height: 1rem;
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .section-footer{
 background-color: black;}
@@ -36,4 +39,9 @@ span a{
 }
 .title{
   color:white;
+}
+h6{
+  color:white;
+  margin-left: 20px;
+  text-align: center;
 }

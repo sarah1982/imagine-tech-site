@@ -12,7 +12,8 @@ import { TeamComponent } from './team/team.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { ReactappComponent } from './reactapp/reactapp.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { MainFooterComponent } from './main-footer/main-footer.component';
+import { UserExpComponent } from './user-exp/user-exp.component';
+import { BackendComponent } from './backend/backend.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MainFooterComponent } from './main-footer/main-footer.component';
     MarketingComponent,
     ReactappComponent,
     PortfolioComponent,
-    MainFooterComponent,
+    UserExpComponent,
+    BackendComponent,
   ],
   imports: [
     BrowserModule,

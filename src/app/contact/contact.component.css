@@ -6,18 +6,23 @@
   padding:0;
 
 }
-
+.row{
+  margin-left: 20%;
+}
 .bg{
   background: #fff url("../../assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
   border-bottom: 3px solid rgb(51, 152, 255);
-  margin:0px;
-  padding:0px;
-
+  margin-top:40px;
+  padding-top:40px;
 }
-
-p,h1{
-  margin-left:15%;
+.hero-text{
+  color:rgb(0, 98, 204);
+  text-align: justify;
+  line-height: 2rem;
+}
+h1{
+  margin-left:25%;
 }
 .hline-bottom {
   padding-bottom: 10px;

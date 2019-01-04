@@ -7,6 +7,8 @@ import { TeamComponent } from './team/team.component';
 import { MarketingComponent } from './marketing/marketing.component';
 import { ReactappComponent } from './reactapp/reactapp.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { UserExpComponent } from './user-exp/user-exp.component';
+import { BackendComponent } from './backend/backend.component';
 
 const routes: Routes = [
   {
@@ -38,7 +40,17 @@ const routes: Routes = [
       path: 'react',
       component: ReactappComponent
 
-  }
+  },
+  {
+    path: 'userExp',
+    component: UserExpComponent
+
+},
+{
+  path: 'backend',
+  component: BackendComponent
+
+}
 ];
 
 @NgModule({

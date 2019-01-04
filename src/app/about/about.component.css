@@ -6,6 +6,9 @@
   padding:0;
 
 }
+.row{
+  margin-left: 20%;
+}
 .hero-text{
   color:rgb(0, 98, 204);
   text-align: justify;
@@ -15,8 +18,8 @@
   background: #fff url("../../assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
   border-bottom: 3px solid rgb(51, 152, 255);
-  margin:0px;
-  padding:0px;
+  margin-top:20px;
+  padding-top:20px;
 
 }
 
@@ -25,6 +28,7 @@ p,h1,h5{
 }
 .hline-bottom {
   padding-bottom: 10px;
+  margin-left:20px;
   border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
 }
 
