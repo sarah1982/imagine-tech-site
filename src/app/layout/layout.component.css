@@ -1,23 +1,29 @@
+/*
 .container{
-
+  margin-right:0px;
   width:100%;
   height:100%;
   margin-top:50px;
   padding:0px;
-  
-
 }
-
+.row{
+  margin:0;
+}
 .bg{
   background: #fff url("/assets/img/Background.png")no-repeat top right;
   background-size:cover;
   height:700px;
   border-bottom: 3px solid rgb(51, 152, 255);
-  margin-top:40px;
-  padding-top:40px;
-
+  padding-top: 5%;
+  position: relative;
 }
 
+h1.display-12.mb-6{
+  padding-left:0px;
+}
+div.head-text{
+  padding: 0%;
+}
 .jumbotron{
   background-color: transparent;
 }
@@ -33,6 +39,7 @@ span{
 h1{
   background-color: transparent;
   margin-top: 1rem;
+  padding-left:6rem;
 }
 
 img{
@@ -51,7 +58,7 @@ img{
   line-height: 2rem;
 }
 .btn-two {
-  margin-left: 15%;
+  margin-left: 10%;
   position: relative;
   color: black;
   width: 200px;
@@ -111,6 +118,8 @@ img{
 }
 .carousel-item {
   margin-left:30%;
+  font-size: 30px;
+  color:rgb(0,65,153)
 }
 
 
@@ -131,3 +140,401 @@ img{
 
 }
 
+
+.white{
+  color:white;
+}
+.carousel-text{
+  font-family: 'Oswald', 'san-serif';
+}
+
+.fa-border{
+  border-radius: 50%;
+  position: relative;
+  padding:0.7em;
+	margin: 0.50em;
+  font-size: 1em;
+  }
+  #twitter:hover{
+    color:#38A1F3;
+    animation: animate-icon;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+  }
+   #facebook:hover{
+    color:#0084FF;
+    animation: animate-icon;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+  }
+  #linkedin:hover{
+    color:#0077B5;
+    animation: animate-icon;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes animate-icon{
+  
+    0% {
+      top:0px;
+      opacity: 0;
+    }
+    50%{
+      top:2px;
+      opacity: 0.5;
+    }
+    100%{
+      top:5px;
+      opacity: 1;
+    }
+  }*/
+  .img-bg{
+    padding:4%;
+    background-color: black;
+  }
+  .img-alignment{
+    text-align: justify;
+  }
+  img{
+    position: relative;
+    display: inline-block;
+    bottom:175px;
+    justify-content: space-between
+  }
+  
+  .img-alignment:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  .service-img-text{
+    color:#fff;
+    font-family: 'Oswald','sans-serif';
+    line-height: 1rem;
+    font-weight: 200;
+    font-size: 1 rem;
+    text-align: center;
+    text-decoration: none;
+    position:relative;
+    bottom:150px;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+  }
+  
+  .img-wrap img:hover{
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Header content */
+    .container-fluid{
+      margin-right:0px;
+      width:100%;
+      height:100%;
+      margin-top:50px;
+      padding:0px;
+    }
+    .row{
+      margin:0;
+    }
+    #backgroundimage
+  {
+     height: auto;
+     left: 0;
+     margin: 0;
+     min-height: 100%;
+     min-width: 674px;
+     padding: 0;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+     
+  }
+  .row{
+    margin:0;
+  }
+  h1{
+    background-color: transparent;
+    margin-top: 1em;
+    text-align: center;
+    font-size:2em;
+    padding-left: 0.5em;
+  }
+  /* carousel content */
+  .carousel-item {
+    font-size: 1.5em;
+    color:rgb(0,65,153);
+  }
+  .white{
+    color:white;
+  }
+  .carousel-text{
+    font-family: 'Oswald', 'san-serif';
+    text-align: justify;
+  }
+  
+  /* social links */
+  .fa-border{
+    border-radius: 50%;
+    position: relative;
+    padding-bottom:0.7em;
+    font-size: 1em;
+    }
+    #twitter:hover{
+      color:#38A1F3;
+      animation: animate-icon;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+    }
+     #facebook:hover{
+      color:#0084FF;
+      animation: animate-icon;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+    }
+    #linkedin:hover{
+      color:#0077B5;
+      animation: animate-icon;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+    }
+  
+    @keyframes animate-icon{
+    
+      0% {
+        top:0px;
+        opacity: 0;
+      }
+      50%{
+        top:2px;
+        opacity: 0.5;
+      }
+      100%{
+        top:5px;
+        opacity: 1;
+      }
+    }
+  
+    /* Request estimate */
+    .container-2{
+      padding-top: 15%;
+    }
+    .btn-two {
+      margin-left: 40%;
+      position: relative;
+      color: black;
+      width: 200px;
+      height: 64px;
+      line-height: 64px;
+      transition: all 0.3s;
+    }
+    .btn a{
+      color:black;
+      text-decoration: none;
+    }
+    
+    .btn a:hover{
+      color:grey;
+    }
+    
+    
+    .btn-two::before, .btn-two::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      bottom: 0;
+      left: 0px;
+      z-index: -1;
+      transition: all 0.3s;
+      border: 2px solid rgb(0, 98, 204) ;
+    }
+    .btn-two:hover::after {
+      animation-name: rotatecw;
+      animation-duration: 2s;
+      border: 1px solid black;
+      color: rgb(0, 98, 204) ;
+    
+    }
+    .btn-two:hover::before {
+      animation-name: rotateccw;
+      animation-duration: 3s;
+    }
+    .btn-two:hover::after, .btn-two:hover::before {
+      left: 70%;
+      width: 64px;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      z-index:-1;
+    }
+    
+    @keyframes rotatecw {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
+    }
+    
+    @keyframes rotateccw {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(-360deg);}
+    }
+    #contact{
+      font-family: 'Oswald','sans-serif';
+      font-size:20px;
+      font-weight: bold;
+    }
+   div.btn.btn-two{
+     position: fixed;
+     top:364px;
+     left:92px;
+   }
+   /* to hide the button behind the main-services*/
+  .main-service{
+    position: relative;
+    z-index: 888;
+  }
+    /* smaller tablets */
+  @media only screen and (min-width:640px){
+    
+    h1{
+      font-size: 2em;
+      margin-top: 1em;
+    /*  margin-bottom: 2em;*/
+      margin-left:6em;
+  
+    }
+    .carousel-item {
+      font-size: 1.5em;
+    }
+    .container-2{
+      padding-top:10%;
+    }
+    #contact{
+      font-size: 1em;
+    }
+  
+    div.btn.btn-two{
+      position: fixed;
+      text-align: center;
+  /*    top:364px;
+      right:202px;*/
+   
+    }
+    
+   
+    }
+  
+    /*ipad */
+    @media only screen and (min-width:768px){
+    
+      h1{
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        margin-left:6em;
+    
+      }
+      .carousel-item {
+        font-size: 1.5em;
+      }
+      .container-2{
+        padding-top:10%;
+      }
+      #contact{
+        font-size: 1em;
+      }
+    
+      div.btn.btn-two{
+        position: fixed;
+        text-align: center;
+   /*     top:464px;
+        right:252px;*/
+     
+      }
+      
+     
+      }
+  /* tablets */
+     @media only screen and (min-width:1025px){
+      h1{
+        font-size: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left:6em;
+    
+      }
+      .carousel-item {
+        font-size: 1.5em;
+      }
+      .container-2{
+        padding-top:10%;
+      }
+      #contact{
+        font-size: 1em;
+      } 
+      .fa-stack{
+        padding-top:5%;
+      }
+      .btn-two{
+        width:300px;
+        font-size: 1.5em;
+      }
+      div.btn.btn-two{
+        position: fixed;
+        text-align: center;
+   /*     top:664px;
+        right:282px;*/
+     
+      }
+     }
+     /* Medium laptop */
+     @media (min-width: 1025px) and (max-width: 1280px) {
+  
+      div.btn.btn-two{
+        position: fixed;
+        text-align: center;
+
+       /* top:484px;
+        right:282px;*/
+     
+      }
+      
+    }
+  /* laptop wth high definition */
+    @media (min-width: 1280px) and (max-width: 1500px) {
+      div.btn.btn-two{
+        position: fixed;
+        text-align: center;
+   
+    /*    top:564px;
+        right:482px;*/
+     
+      }
+      
+    }
+  
+    /* Desktop */
+    @media (min-width: 1281px) {
+      div.btn.btn-two{
+        position: fixed;
+        text-align: center;
+
+    /*    top:464px;
+        left:82px;*/
+     
+      }
+      #contact{
+        font-size: 1em;
+      } 
+  
+    }
+  

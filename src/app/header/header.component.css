@@ -1,8 +1,12 @@
-.container{
-  padding: 0px;
-  margin:0px;
-  height:30px;
+
+.bg-header{
+  background-color: #101022;
+  width:100%;
 }
+.logo{
+  width:60%;
+}
+
 .nav-item{
   position: relative;
   color: #fff;
@@ -17,33 +21,30 @@
   width: 2px;
   position: absolute;
   right: 0;
-  top: 20%;
+  top: 27%;
   background-color: #fff;
 }
 .nav-item:last-of-type::after{
   content:none;
 }
+
+
 .nav-item .nav-link {
-  padding-right: 3rem;
-  padding-left: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+a{
+  color:rgb(51,152,255);
 }
 .nav-link:hover{
-  color: cornflowerblue;
+  color: white;
 
-}
-
-
-a:hover,a:active{
-  color: cornflowerblue;
-}
-
-.bg-header{
-  background-color: #101022;
 }
 .icon-wrap{
   position:relative;
   top:10%;
-  padding-left: 3rem;
+  margin:0;
+  padding:0;
 }
 .text-wrap{
   color:white;
@@ -54,8 +55,82 @@ a:hover,a:active{
 .icon-wrap:hover .text-wrap{
   opacity:1;
 }
-.logo{
-  width:40%;
+ul >li {
+  display:inline-block;
 }
+/* smaller tablets */
+@media only screen and (min-width:640px){
+  .logo{
+    width:40%;
+  }
+  .nav-item{
+    font-size:1.5rem;
+  }
+   .text-wrap{
+     font-size:1.5rem;
+   }
+   .nav-item:after{
+     top:12%;
+     height:30%;
+   }
+  }
+/* tablets */
+   @media only screen and (min-width:1000px){
+     .logo{
+       width:20%;
+     }
+     .nav-item{
+       font-size:1.5rem;
+     }
+     .text-wrap{
+        font-size:1rem;
+     }
+     .nav-item:after{
+      top:20%;
+      height:30%;
+    }
+   }
+   /* Medium laptop */
+   @media (min-width: 1025px) and (max-width: 1280px) {
+     div#navbarsDefault.collapse.navbar-collapse.text-left{
+       padding-top:1%;
+     }
+    .logo{
+      width:20%;
+    }
+    .bg-header{
+      height:7%;
+    }
+    .nav-item{
+      font-size:1rem;
+    }
+    .text-wrap{
+       font-size:1rem;
+    }
+    .nav-item:after{
+     top:20%;
+     height:30%;
+   }
+    
+    
+  }
+/* laptop wth high definition */
+  @media (min-width: 1280px) and (max-width: 1500px) {
+    div#navbarsDefault.collapse.navbar-collapse.text-left{
+      padding-top:1%;
+    }
+    .bg-header{
+      height:7%;
+    }
+  }
 
+  /* Desktop */
+  @media (min-width: 1281px) {
+    div#navbarsDefault.collapse.navbar-collapse.text-left{
+      padding-top:1%;
+    }
+    .bg-header{
+      height:7%;
+    }
 
+  }

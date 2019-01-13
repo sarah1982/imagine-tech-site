@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./team.component.css']
 })
 export class TeamComponent implements OnInit {
-
+  color = 'one';
+  counter = 0;
+  elt: Element;
+  elts;
   constructor() { }
 
   ngOnInit() {
+
+     }
   }
 
-}
+

@@ -14,6 +14,7 @@ import { ReactappComponent } from './reactapp/reactapp.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { UserExpComponent } from './user-exp/user-exp.component';
 import { BackendComponent } from './backend/backend.component';
+import { MainfooterComponent } from './mainfooter/mainfooter.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { BackendComponent } from './backend/backend.component';
     PortfolioComponent,
     UserExpComponent,
     BackendComponent,
+    MainfooterComponent,
   ],
   imports: [
     BrowserModule,

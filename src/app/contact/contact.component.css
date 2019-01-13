@@ -10,7 +10,7 @@
   margin-left: 20%;
 }
 .bg{
-  background: #fff url("../../assets/img/sectionbg.png")no-repeat top right;
+  background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
   border-bottom: 3px solid rgb(51, 152, 255);
   margin-top:40px;
