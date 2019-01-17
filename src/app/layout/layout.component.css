@@ -223,7 +223,9 @@ img{
   
   
   .section-intro{
-    padding-bottom:50%;
+    padding-bottom:30%;
+    padding-top:11%;
+    padding-left:15%;
   }
   
   /* Header content */
@@ -251,9 +253,7 @@ img{
      z-index: -1;
      
   }
-  .row{
-    margin:0;
-  }
+ 
   h1{
     background-color: transparent;
     margin-top: 1em;
@@ -280,6 +280,10 @@ img{
     position: relative;
     padding-bottom:0.7em;
     font-size: 1em;
+    }
+    #face-link,#linkedin-link{
+      text-decoration: none;
+      color:black;
     }
     #twitter:hover{
       color:#38A1F3;
@@ -321,7 +325,7 @@ img{
       padding-top: 15%;
     }
     .btn-two {
-      margin-left: 40%;
+      text-align: center;
       position: relative;
       color: black;
       width: 200px;
@@ -394,8 +398,23 @@ img{
     z-index: 888;
   }
 
-  @media only screen and (min-width:768px){
+  @media only screen and (min-width:600px){
     .section-intro{
-      padding-bottom: 0%;
+      padding-bottom:15%;
+  
+    }
+   
+  }
+  @media only screen and (max-width:414px){
+  
+    h1{
+      font-size: 1.5em;
+
+    }
+    .carousel-item{
+      font-size: 1.2em;
+    }
+    #contact{
+      font-size: 1em;
     }
   }

@@ -16,15 +16,15 @@
 
   <section class="section-intro bg  text-center">
       <div class="container d-flex flex-column" style="min-height:80vh;">
-          <div class="col-lg-8 col-sm-12 text-left mx-auto">
-              <h1 class="display-10 mb-5 hline-bottom">Portfolio</h1>
+          <div class="col-lg-8 col-sm-12 text-left mr-auto" id="container-padding">
+              <h1 class="display-10 mb-8 hline-bottom">Portfolio</h1>
           </div>
           <div class="row">
-               <div class="col-md-3 col-lg-4 col-sm-6 mx-auto">
+               <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
                  <figure class="card card-product">
-                        <div class="img img-wrap"><img id="myImg" src="/assets/img/AngularDesign.jpg" alt="Snow" (click)="getImg('myImg')" style="width:100%;max-width:300px"></div>
-                          <div id="myModal" class="modal">
-                              <span class="close" (click)="closeImg()">X</span>
+                        <div class="img img-wrap"><img id="angular" src="/assets/img/AngularDesign.jpg" alt="AngularDesign" (click)="getImg('angular')" style="width:100%;max-width:300px"></div>
+                          <div id="img-modal" class="modal">
+                              <span class="close pull-right" (click)="closeImg()">X</span>
                                 <img class="modal-content" id="img01">
                                 <div id="caption"></div>
                             </div>
@@ -35,11 +35,11 @@
                 
                     </figure>
                </div>
-               <div class="col-md-3 col-lg-4 col-sm-6 mx-auto">
+               <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
 
                   <figure class="card card-product">
-                      <div class="img img-wrap"><img id="mySnow" src="/assets/img/splashpage.png" alt="Snow" (click)="getImg('mySnow')" style="width:100%;max-width:300px"></div>
-                          <div id="myModal" class="modal">
+                      <div class="img img-wrap"><img id="kupido" src="/assets/img/splashpage.png" alt="Kupido" (click)="getImg('kupido')" style="width:100%;max-width:300px"></div>
+                          <div id="img-modal" class="modal">
                               <span class="close" (click)="closeImg()">X</span>
                          <img class="modal-content" id="img01">
                           <div id="caption"></div>
@@ -50,11 +50,11 @@
                             </figcaption>
                   </figure>
                </div>
-              <div class="col-md-3 col-lg-4 col-sm-6 mx-auto">      
+              <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">      
                   <figure class="card card-product">
         
-                         <div class="img img-wrap"> <img id="myPin" src="/assets/img/truck.png" alt="Snow" (click)="getImg('myPin')" style="width:100%;max-width:300px"></div>
-                          <div id="myModal" class="modal">
+                         <div class="img img-wrap"> <img id="truck" src="/assets/img/truck.png" alt="Trucking Service" (click)="getImg('truck')" style="width:100%;max-width:300px"></div>
+                          <div id="img-modal" class="modal">
                               <span class="close" (click)="closeImg()">X</span>
                           <img class="modal-content" id="img01">
                           <div id="caption"></div>

@@ -1,11 +1,19 @@
+
+
+.section-intro{
+  padding:3%;
+}
 .container{
   width:100%;
   height:100%;
   margin-top:50px;
+  margin-right: 0px;
 }
 
-.row{
-  margin-left: 20%;
+h1{
+  font-weight: bold;
+  font-family: 'Oswald','sans-serif';
+  padding-bottom: 5%;
 }
 
 .bg{
@@ -16,43 +24,42 @@
   padding-top:20px;
 
 }
-  .hero-text{
-    color:rgb(0, 98, 204);
-    text-align: justify;
-    line-height: 2rem;
-  }
-  p,h1{
-    margin-left:20%;
-  }
-  .hline-bottom {
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
-  }
-  
-  h1,p{
-    animation: chainReaction 3s;
+.hero-text{
+  color:rgb(0, 98, 204);
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.hline-bottom {
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
+}
+
+h1,p{
+  animation: chainReaction 3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes chainReaction {
+  0% {
     opacity: 0;
-    animation-fill-mode: forwards;
   }
-  
-  @keyframes chainReaction {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  h1{
-    animation-delay: .3s;
-  };
-  p{
-    animation-delay: 1s;
-  };
-  /* CTA */
+}
+
+h1{
+  animation-delay: .3s;
+};
+p{
+  animation-delay: 1s;
+};
+
+
+/* CTA */
 .btn-two {
-  margin-left: 15%;
   position: relative;
   color: black;
   width: 200px;
@@ -64,14 +71,20 @@
 .container-2{
   margin-top:10%;
 }
+.btn a{
+  text-decoration: none;
+}
 
+.btn a:hover{
+  color:grey;
+}
 .btn-two::before, .btn-two::after {
   content: '';
   position: absolute;
-  width: 30%;
+  width: 100%;
     height: 100%;
   bottom: 0;
-    left: 250px;
+    left: 0px;
     z-index: 1;
   transition: all 0.3s;
   border: 2px solid rgb(0, 98, 204) ;
@@ -87,8 +100,13 @@
   animation-name: rotateccw;
   animation-duration: 3s;
 }
+#contact{
+  font-family: 'Oswald','sans-serif';
+  font-size:20px;
+  font-weight: bold;
+}
 .btn-two:hover::after, .btn-two:hover::before {
-  left: 404px;
+  left: 70%;
   width: 64px;
 
   animation-iteration-count: infinite;
@@ -104,8 +122,8 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(-360deg);}
 }
-#contact{
-  font-family: 'Oswald','sans-serif';
-  font-size:20px;
-  font-weight: bold;
+@media only screen and (max-width: 700px){
+  .section-intro {
+    padding-bottom:20%;
+  }
 }

@@ -1,14 +1,20 @@
-.container{
 
+.container{
+  margin-right:0px;
   width:100%;
   height:100%;
   margin-top:50px;
   padding:0;
 
+ 
+
 }
-.row{
-  margin-left: 20%;
+h1{
+  font-weight: bold;
+  font-family: 'Oswald','sans-serif';
+  padding-bottom: 5%;
 }
+
 .bg{
   background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
@@ -20,10 +26,9 @@
   color:rgb(0, 98, 204);
   text-align: justify;
   line-height: 2rem;
+  padding: 5px;
 }
-h1{
-  margin-left:25%;
-}
+
 .hline-bottom {
   padding-bottom: 10px;
   border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
@@ -59,3 +64,8 @@ p{
   margin-bottom:32px;
 }
 
+@media only screen and (max-width: 700px){
+  .section-intro {
+    padding-bottom:20%;
+  }
+}

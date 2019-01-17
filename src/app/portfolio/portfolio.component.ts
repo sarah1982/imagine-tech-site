@@ -22,16 +22,15 @@ captionText;
 
   }
   getImg(strId) {
-    this.modal = document.getElementById('myModal');
+    this.modal = document.getElementById('img-modal');
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     this.img = document.getElementById(strId);
     this.modalImg = document.getElementById('img01');
     this.modal.style.display = 'block';
     this.modalImg.src = this.img.src;
-    this.captionText.innerHTML = this.img.alt;
   }
   closeImg() {
-    this.modal = document.getElementById('myModal');
+    this.modal = document.getElementById('img-modal');
     this.modal.style.display = 'none';
   }
 }

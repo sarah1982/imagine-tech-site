@@ -16,7 +16,9 @@ export class HeaderComponent implements OnInit {
     const menu = document.querySelector('.navbar-menu');
         burger.classList.toggle('is-active');
         menu.classList.toggle('is-active');
+
   }
+
 
   }
 
