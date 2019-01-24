@@ -1,78 +1,4 @@
-<!--<section class="section-intro bg  text-center">
-  <div class="container d-flex flex-column"  style="min-height:80vh;">
-      <div class="col-lg-8 col-sm-12 text-left mx-auto">
-          <h1 class="display-4 mb-3 hline-bottom">Our Gems</h1>
-      </div>
-  <div class="row">
-  <div class="col-lg-8 col-sm-12 text-left mx-auto">
-    <div>
-        <ul id="hero-grid" class="clear">
-              <li>
-                  <div class="hero-hexagon">
-                      <img src="../../assets/img/sample/ceo.jpg" id="img1">
-                      <div class="overlay"></div>
 
-
-                  </div>
-              </li>  
-        </ul>
-    </div>
-  
- 
-<div>
-
-  <ul id="grid" class="clear">
-      <li class="firstSquare">
-        <div class="hexagon">
-          <img src="../../assets/img/sample/samplel-1.jpg" id="img1">
-          <div class="overlay"></div>
-
-        </div>
-      </li>
-      <li class="firstSquare">
-          <div class="hexagon">
-              <img src="../../assets/img/sample/samplel-2.jpg" id="img1">
-              <div class="overlay"></div>
-
-          </div>
-      </li>
-      <li class="firstSquare">
-            <div class="hexagon">
-                <img src="../../assets/img/sample/samplel-3.jpg" id="img1">
-                <div class="overlay"></div>
-
-
-            </div>
-      </li>
-      <li class="firstSquare">
-            <div class="hexagon">
-                <img src="../../assets/img/sample/samplem-1.jpg" id="img1">
-                <div class="overlay"></div>
-
-
-            </div>
-      </li>
-      <li class="firstSquare">
-            <div class="hexagon">
-                <img src="../../assets/img/sample/samplem-2.jpg" id="img1">
-                <div class="overlay"></div>
-
-
-            </div>
-        </li> 
-        <li class="firstSquare">
-            <div class="hexagon">
-                <img src="../../assets/img/sample/samplel-4.jpg" id="img1">
-                <div class="overlay"></div>
-
-            </div>
-        </li>  
-  </ul>
-</div>
-</div>
-</div>
-</div>
-  </section>-->
 
   <section class="bg">
       <div class="container d-flex flex-column"  style="min-height:80vh;">
@@ -85,23 +11,23 @@
               <li class="pusher"></li>
                 <li>
                   <div>
-                    <img src="../../assets/img/sample/ceo.jpg"   alt=""/>
-                    <h1>CEO</h1>
-                    <p>Managing projects</p>
+                    <img src="../../assets/img/sample/ceo.jpg"  alt=""/>
+                    <h1 class="pop">CEO</h1>
+                    <p id="p1">Managing projects</p>
                 </div>
               </li>
               <li class="pusher"></li>
                 <li>
                   <div>
-                    <img src="../../assets/img/sample/samplel-1.jpg" alt=""/>
-                    <h1>This is a title a bit longer</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
+                    <img src="../../assets/img/sample/samplel-1.jpg" #img alt="" class="pop" />
+                    <h1 (click)="openModal(p2)">This is a title a bit longer</h1>
+                    <p #p2>Some sample text about the article this hexagon leads to</p>
                 </div>
               </li>
               <li class="pusher"></li>
                 <li>
                   <div>
-                    <img src="../../assets/img/sample/samplel-2.jpg" alt=""/>
+                    <img src="../../assets/img/sample/samplel-2.jpg" #img alt="" class="pop"/>
                     <h1>This is a title a bit longer</h1>
                     <p>Some sample text about the article this hexagon leads to</p>
                 </div>
@@ -109,13 +35,49 @@
               <li class="pusher"></li>
               <li>
                 <div>
-                  <img src="../../assets/img/sample/samplem-1.jpg" alt=""/>
+                  <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop" />
                   <h1>This is a title a bit longer</h1>
                   <p>Some sample text about the article this hexagon leads to</p>
               </div>
             </li>
+            <li class="pusher"></li>
+
+            <li>
+                <div>
+                    <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop" />
+                      <h1>This is a title a bit longer</h1>
+                      <p>Some sample text about the article this hexagon leads to</p>
+                  </div>
+            </li>
+            <li class="pusher"></li>
+  
+                <li>
+                        <div>
+                            <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop"/>
+                              <h1>This is a title a bit longer</h1>
+                              <p>Some sample text about the article this hexagon leads to</p>
+                          </div>
+                    </li>   
               </ul>
         </div>
         </div>
+ 
         </div>
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">              
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                      <img [src]="imgSrc" class="imagepreview" style="width: 100%;" >
+                    </div>
+                  </div>
+                </div>
+                </div>
       </section>  
+      <script>
+          $(function() {
+		$('.pop').on('click', function() {
+			$('#imagemodal').modal('show');   
+		});		
+});
+      </script>

@@ -9,6 +9,7 @@ import { ReactappComponent } from './reactapp/reactapp.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { UserExpComponent } from './user-exp/user-exp.component';
 import { BackendComponent } from './backend/backend.component';
+import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 
 const routes: Routes = [
   {
@@ -50,6 +51,10 @@ const routes: Routes = [
   path: 'backend',
   component: BackendComponent
 
+},
+{
+  path: 'comingsoon',
+  component: ComingsoonComponent
 }
 ];
 

@@ -1,0 +1,45 @@
+
+.content{
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),url('/assets/img/banner.jpg') no-repeat top;
+    background-size: cover;
+    background-position-y: 50%;
+}
+.primary
+{
+	font-family: 'Oswald', cursive;
+	font-size: 34px;
+    padding-top: 140px;
+    margin:20px 20px;
+}
+h2.subs-title  {
+    top:250px;
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    margin:20px 20px;
+}
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: 'Oswald', sans-serif;
+    margin:0 auto;
+  }
+  
+  .btn-xl {
+    padding: 1rem 2rem; 
+  }
+  
+  .btn-primary {
+    background-color:rgb(51,152,255);
+    border-color:rgb(51,152,255); }
+  
+  .btn-primary:hover {
+    background-color:rgb(51,152,255);
+    border-color:rgb(51,152,255);
+    border-width: 5px;
+    cursor: pointer;
+  }
+

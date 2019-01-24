@@ -32,14 +32,13 @@ h1,h5{
 
 .hline-bottom {
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
+  border-bottom: 2px solid rgb(0, 98, 204); 
 }
-
-h1,p{
-  animation: chainReaction 3s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
+  h1,p{
+    animation: chainReaction 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
 
 @keyframes chainReaction {
   0% {
@@ -56,65 +55,3 @@ h1{
 p{
   animation-delay: 1s;
 };
-/* CTA */
-
-.btn-two {
-  position: relative;
-  color: black;
-  width: 200px;
-  height: 64px;
-  line-height: 64px;
-  transition: all 0.3s;
-
-}
-.btn a{
-  color:black;
-  text-decoration: none;
-}
-
-.btn a:hover{
-  color:grey;
-}
-.btn-two::before, .btn-two::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-    height: 100%;
-  bottom: 0;
-    left: 0px;
-    z-index: 1;
-  transition: all 0.3s;
-  border: 2px solid rgb(0, 98, 204) ;
-}
-.btn-two:hover::after {
-  animation-name: rotatecw;
-  animation-duration: 2s;
-  border: 1px solid black;
-  color: rgb(0, 98, 204) ;
-
-}
-.btn-two:hover::before {
-  animation-name: rotateccw;
-  animation-duration: 3s;
-}
-.btn-two:hover::after, .btn-two:hover::before {
-  left: 60%;
-  width: 64px;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes rotatecw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-}
-
-@keyframes rotateccw {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(-360deg);}
-}
-#contact{
-  font-family: 'Oswald','sans-serif';
-  font-size:20px;
-  font-weight: bold;
-}
