@@ -1,0 +1,110 @@
+.container{
+    margin-right:0px;
+    margin-left:0px;
+    width:100%;
+    height:100%;
+    padding-top:10px;  
+    font-family: 'oswald','sans-serif';
+    font-size:1rem;
+  }
+.bg{
+    background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
+    background-size:cover;
+    border-bottom: 3px solid rgb(51, 152, 255);
+    margin-top:40px;
+    padding-top:40px;
+  }
+  h1{
+    font-weight: bold;
+    font-family: 'Oswald','sans-serif';
+    padding-bottom: 5%;
+  }
+  .hero-text{
+    color:rgb(0, 98, 204);
+    text-align: justify;
+    line-height: 2rem;
+  }
+  
+  .hline-bottom {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(0, 98, 204); 
+  }
+
+  
+  /*--------------------------------------------------------------
+# Equal Height CSS - Desktop
+--------------------------------------------------------------*/
+
+.eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.eq-height:before, .eq-height:after {
+    content: normal;
+}
+.eqh-box {
+    position: relative;
+    width:100%;
+    height: 80%;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.eq-height [class*="col-"] {
+	margin-bottom: 25px;
+}
+.eq-height .eqh-box {
+	background-color: #f2f2f2;
+}
+.eq-height .eqh-box > a {
+	font-size: 18px;
+	color: #000;
+    font-weight: 300;
+    text-align: center;
+}
+.eq-height .eqh-box > a:hover {
+    color: #007cc3;
+}
+.eq-height .eqh-box .eq-ht-title {
+    text-align: center;
+	margin: 0 0 10px;
+	font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald','sans-serif';
+}
+.eq-height .box-cnt {
+	padding: 15px;
+}
+.eq-height .box-cnt a, .eq-height .box-cnt a:visited {
+	color: #000;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.eq-height .box-cnt a:hover {
+	color: #007cc3;
+}
+.eq-height .eqh-box img {
+	max-width: none;
+	transform: translate3d(-40px, 0px, 0px);
+	transition: all 0.5s ease 0s;
+	width: calc(100% + 40px);
+}
+.eq-height .eqh-box:hover img {
+    transform: translate3d(0px, 0px, 0px);
+    
+}
+.eq-height a > .eqh-box {
+	font-size: 18px;
+	font-weight: 300;
+}
+.eq-height .eqh-box > a:hover {
+	color: #007cc3;
+}
+.eqh-box{
+    margin-left: 10%;
+}

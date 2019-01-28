@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+import {WOW} from 'wowjs';
 @Component({
   selector: 'app-reactapp',
   templateUrl: './reactapp.component.html',
   styleUrls: ['./reactapp.component.css']
 })
-export class ReactappComponent implements OnInit {
+export class ReactappComponent implements AfterViewInit {
 
   constructor() { }
-
-  ngOnInit() {
+  ngAfterViewInit() {
+    new WOW().init();
   }
 
 }

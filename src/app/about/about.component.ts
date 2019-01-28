@@ -1,16 +1,18 @@
-import { Component } from '@angular/core';
-import { NONE_TYPE } from '@angular/compiler/src/output/output_ast';
-
+import { Component, AfterViewInit } from '@angular/core';
+import {WOW} from 'wowjs';
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.css'],
 
 })
-export class AboutComponent  {
+export class AboutComponent implements AfterViewInit {
 
   constructor() { }
 
+  ngAfterViewInit() {
+    new WOW().init();
+  }
 
 
 }

@@ -16,6 +16,7 @@ import { UserExpComponent } from './user-exp/user-exp.component';
 import { BackendComponent } from './backend/backend.component';
 import { MainfooterComponent } from './mainfooter/mainfooter.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { OpportunitiesComponent } from './opportunities/opportunities.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
     BackendComponent,
     MainfooterComponent,
     ComingsoonComponent,
+    OpportunitiesComponent,
   ],
   imports: [
     BrowserModule,

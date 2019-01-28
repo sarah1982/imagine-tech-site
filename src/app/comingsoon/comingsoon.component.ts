@@ -1,14 +1,17 @@
-import { Component } from '@angular/core';
-
+import { Component, AfterViewInit } from '@angular/core';
+import {WOW} from 'wowjs';
 @Component({
   selector: 'app-comingsoon',
   templateUrl: './comingsoon.component.html',
   styleUrls: ['./comingsoon.component.css']
 })
-export class ComingsoonComponent  {
+export class ComingsoonComponent implements AfterViewInit  {
 
-  constructor() { }
+  constructor() {
+   }
 
-
+ngAfterViewInit() {
+  new WOW().init();
+}
 
 }

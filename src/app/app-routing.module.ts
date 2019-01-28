@@ -10,6 +10,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { UserExpComponent } from './user-exp/user-exp.component';
 import { BackendComponent } from './backend/backend.component';
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { OpportunitiesComponent } from './opportunities/opportunities.component';
 
 const routes: Routes = [
   {
@@ -55,6 +56,10 @@ const routes: Routes = [
 {
   path: 'comingsoon',
   component: ComingsoonComponent
+},
+{
+  path: 'opportunities',
+  component: OpportunitiesComponent
 }
 ];
 

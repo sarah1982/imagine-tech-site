@@ -30,26 +30,5 @@ h1{
   border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
 }
 
-h1,p{
-  animation: chainReaction 3s;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-@keyframes chainReaction {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-h1{
-  animation-delay: .3s;
-};
-p{
-  animation-delay: 1s;
-};
 
 

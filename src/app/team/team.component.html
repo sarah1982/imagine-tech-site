@@ -3,81 +3,140 @@
   <section class="bg">
       <div class="container d-flex flex-column"  style="min-height:80vh;">
           <div class="col-lg-8 col-sm-12 text-left mx-auto">
-              <h1 class="display-4 mb-3 hline-bottom">Our Gems</h1>
+              <h1 class="display-10 mb-8 hline-bottom wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1.5s">Our Gems</h1>
           </div>
       <div class="row">
-      <div class="col-lg-8 col-sm-12 text-left mx-auto">
+      <div class="col-lg-8 col-md-8 col-sm-12">
           <ul id="categories" class="clr">
               <li class="pusher"></li>
                 <li>
                   <div>
-                    <img src="../../assets/img/sample/ceo.jpg"  alt=""/>
-                    <h1 class="pop">CEO</h1>
-                    <p id="p1">Managing projects</p>
+                    <img src="../../assets/img/Team/Jazzy.jpg" alt="" id='ceo'/>
+                    <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('ceo')">CEO</h1>
+                    <p data-toggle="modal" data-target="#myModal" >Managing projects</p>
+                    <p class="desc">I love the digital nomad lifestyle. No, I'm not a digital nomad yet, but one day I will be. I love interesting conversations, unplanned jokes, and people who want to eat the world in one sitting. I believe that your work is your legacy to this world, so why not do great work?</p>
                 </div>
               </li>
-              <li class="pusher"></li>
-                <li>
-                  <div>
-                    <img src="../../assets/img/sample/samplel-1.jpg" #img alt="" class="pop" />
-                    <h1 (click)="openModal(p2)">This is a title a bit longer</h1>
-                    <p #p2>Some sample text about the article this hexagon leads to</p>
-                </div>
-              </li>
-              <li class="pusher"></li>
-                <li>
-                  <div>
-                    <img src="../../assets/img/sample/samplel-2.jpg" #img alt="" class="pop"/>
-                    <h1>This is a title a bit longer</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-              </li>
-              <li class="pusher"></li>
-              <li>
-                <div>
-                  <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop" />
-                  <h1>This is a title a bit longer</h1>
-                  <p>Some sample text about the article this hexagon leads to</p>
-              </div>
-            </li>
-            <li class="pusher"></li>
+                <li class="pusher"></li>
 
-            <li>
-                <div>
-                    <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop" />
-                      <h1>This is a title a bit longer</h1>
-                      <p>Some sample text about the article this hexagon leads to</p>
-                  </div>
-            </li>
+              <li>
+                  <div>
+                  
+                      <img src="../../assets/img/Team/Sarah.png" #img alt="" class="pop" id="leadfront"/>
+                      <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('leadfront')">Lead Front End Developer</h1>
+                      <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('leadfront')" id="name">Saradha Balakrishnan</p>
+                      <p class="desc">Software Analyst and Engineer with 5+ years of experience in design and development of corporate projects using different technologies.Worked on UI technologies AngularJS, ReactJS</p>
+                    </div>
+              </li>  
+              <li class="pusher"></li>
+                <li>
+                  <div>
+                    <img src="../../assets/img/Team/Matt.png" alt="" class="pop" id="ux" class="figure-img"/>
+                    <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('ux')">UX Designer</h1>
+                    <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('ux')" id="name">Matt Passmore</p>
+                    <p class="desc">Problem seeker and solver. I focus on research and strategy to create a holistic approach to human centered design and have an emphatic passion for a visual design to create the most delightful and cohesive relationship between a product and user. Interaction is key.</p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+                <li>
+                  <div>
+                    <img src="../../assets/img/Team/Shubham.jpg" alt="" class="pop" id="backend" class="figure-img"/>
+                    <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('backend')">Backend Developer</h1>
+                    <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('backend')" id="name">Shubham Tiwari</p>
+                    <p class="desc">I help build awesome experiences for the millions of people with OSS.I spend most of my time with React, Node and Elixir.A cloud computing enthusiast and AWS Professional</p>
+                </div>
+              </li>
+              <li class="pusher"></li>
+                <li>
+                    <div>
+                        <img src="../../assets/img/Team/Fabio.jpg" alt="" class="pop" id="frontend" class="figure-img"/>
+                        <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('frontend')">Frontend Developer</h1>
+                        <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('frontend')" id="name">Fabio Rodriguez</p>
+                        <p class="desc">I am a Front End developer with industry experience building websites and web applications. I specialize in JavaScript and have professional experience working with C# and CMS. I also have experience working with Vue, Ruby on Rails, and React.</p>
+                    </div>
+              </li>
+              
             <li class="pusher"></li>
   
                 <li>
                         <div>
-                            <img src="../../assets/img/sample/samplem-1.jpg" #img alt="" class="pop"/>
-                              <h1>This is a title a bit longer</h1>
-                              <p>Some sample text about the article this hexagon leads to</p>
+                            <img src="../../assets/img/Team/Sean.jpeg" #img alt="" class="pop" id="front"/>
+                            <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('front')">FrontEnd Engineer</h1>
+                            <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('front')" id="name">Sean Kidwell</p>
+                            <p class="desc">Responsible for building up the front-end structures of web applications, whether that be adding new features to an app or simply creating templates.</p>
                           </div>
                     </li>   
+                    <li class="pusher"></li>
+  
+                    <li>
+                            <div>
+                            
+                                <img src="../../assets/img/Team/Stephanie.jpg" #img alt="" class="pop" id="market"/>
+                                <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('market')">Marketing Analyst</h1>
+                                <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('market')" id="name">Stephanie Sun</p>
+                                <p class="desc">SEO & SEM Strategy development to increase unique visitors and help creating leads for the company.</p>
+                              </div>
+                        </li>  
+                        <li class="pusher"></li>
+ 
+                        <li>
+                            <div>
+                            
+                                <img src="../../assets/img/Team/Joshua.jpeg" #img alt="" class="pop" id="junior"/>
+                                <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('junior')">Junior Web Developer</h1>
+                                <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('junior')" id="name">Joshua Aragon</p>
+                                <p class="desc">Responsible for building up the front-end structures of web applications, whether that be adding new features to an app or simply creating templates.</p>
+                              </div>
+                        </li>   
+      
+                        <li class="pusher"></li>
+                        <li>
+                            <div>
+                                <img src="../../assets/img/Team/ronny.jpg" alt="" class="pop" id="marketing" class="figure-img"/>
+                                <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('marketing')">Marketing Specialist</h1>
+                                <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('marketing')" id="name">Ronny Guzman</p>
+                                <p class="desc">Managing marketing campaign & research strategies for a software development start-up.Built a Twitter data collection program in R, using the data to find consumer insights, and for market analysis </p>
+                            </div>
+                      </li>
+                      <li class="pusher"></li>
+                      <li>
+                          <div>
+                              <img src="../../assets/img/Team/Sulem.png" alt="" class="pop" id="admin" class="figure-img"/>
+                              <h1 data-toggle="modal" data-target="#myModal" (click)="getDataForModal('admin')">Head Of Admiistration</h1>
+                              <p data-toggle="modal" data-target="#myModal" (click)="getDataForModal('admin')" id="name">Sulem Tostado</p>
+                              <p class="desc">Managing marketing campaign & research strategies for a software development start-up.</p>
+                          </div>
+                    </li>
               </ul>
+
         </div>
         </div>
  
         </div>
-        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">              
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                      <img [src]="imgSrc" class="imagepreview" style="width: 100%;" >
-                    </div>
-                  </div>
-                </div>
-                </div>
-      </section>  
-      <script>
-          $(function() {
-		$('.pop').on('click', function() {
-			$('#imagemodal').modal('show');   
-		});		
-});
-      </script>
+  
+          
+      
+      <div class="modal centered" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            
+              <div class="modal-header">
+                <h4 class="modal-title">{{Name}}</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <div class="modal-body">
+                <img [src]="imgSource" style="width:10%;height:10%">
+                <article>{{txtDescription}}</article>
+              </div>
+              
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        </section>
+
+  

@@ -15,7 +15,7 @@
     text-decoration: none;
   }
   
-  .btn a:hover{
+  .btn a:hover,.btn a:active{
     color:grey;
   }
   
@@ -31,18 +31,20 @@
     transition: all 0.3s;
     border: 2px solid rgb(0, 98, 204) ;
   }
-  .btn-two:hover::after {
+  .btn-two:hover::after,  .btn-two:active::after {
     animation-name: rotatecw;
     animation-duration: 2s;
     border: 1px solid black;
     color: rgb(0, 98, 204) ;
   
   }
-  .btn-two:hover::before {
+  .btn-two:hover::before,
+  .btn-two:active::before {
     animation-name: rotateccw;
     animation-duration: 3s;
   }
-  .btn-two:hover::after, .btn-two:hover::before {
+  .btn-two:hover::after, .btn-two:hover::before,
+  .btn-two:active::after, .btn-two:active::before {
     left: 70%;
     width: 64px;
     animation-iteration-count: infinite;

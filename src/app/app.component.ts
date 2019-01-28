@@ -1,5 +1,5 @@
-import { Component, ViewEncapsulation } from '@angular/core';
-import { NONE_TYPE } from '@angular/compiler/src/output/output_ast';
+import { Component, ViewEncapsulation, AfterViewInit } from '@angular/core';
+import {WOW} from 'wowjs';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +7,10 @@ import { NONE_TYPE } from '@angular/compiler/src/output/output_ast';
   styleUrls: ['./app.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'Imagine';
+
+  ngAfterViewInit() {
+    new WOW().init();
+  }
 }

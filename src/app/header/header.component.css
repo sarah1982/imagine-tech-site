@@ -17,11 +17,11 @@
 
 .nav-item:after {
   content: '';
-  height: 40%;
+  height: 50%;
   width: 2px;
   position: absolute;
   right: 0;
-  top: 0%;
+  top: 15%;
   background-color: #fff;
 }
 .nav-item:last-of-type::after{
@@ -70,8 +70,8 @@ ul >li {
      font-size:1.5rem;
    }
    .nav-item:after{
-     top:12%;
-     height:30%;
+     top:15%;
+     height:60%;
    }
   }
 /* tablets */
@@ -109,7 +109,7 @@ ul >li {
     }
     .nav-item:after{
      top:20%;
-     height:30%;
+     height:60%;
    }
     
     

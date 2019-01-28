@@ -1,25 +1,19 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, AfterViewInit } from '@angular/core';
+import {WOW} from 'wowjs';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit {
+export class PortfolioComponent implements AfterViewInit {
  img;
  modalImg;
 captionText;
  modal;
  span;
   constructor() { }
-
-  ngOnInit() {
-
-  }
-  ngOnViewInit() {
-
-
-
+  ngAfterViewInit() {
+    new WOW().init();
   }
   getImg(strId) {
     this.modal = document.getElementById('img-modal');
