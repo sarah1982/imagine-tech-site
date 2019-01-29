@@ -11,7 +11,7 @@ body{
 }
 
 .bg{
-  background: #fff url("/assets/img/sectionbg.png")no-repeat top left;
+  background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
   border-bottom: 3px solid rgb(51, 152, 255);
   margin-top:20px;
@@ -52,7 +52,7 @@ body{
   float:left;
   overflow:hidden;
   visibility:hidden;
- 
+ cursor:pointer;
   -webkit-transform: rotate(-60deg) skewY(30deg);
   -ms-transform: rotate(-60deg) skewY(30deg);
   transform: rotate(-60deg) skewY(30deg);
@@ -152,7 +152,7 @@ body{
   position: fixed;
   top:50%;
   left: 50%;
-
+  cursor:pointer;
 }
 
 
@@ -178,5 +178,12 @@ body{
 
 .container{
   margin-left:0%;
+}
+.modal{
+  position: fixed;
+  top:40%;
+  left:0%;
+  cursor:pointer;
+
 }
 }
