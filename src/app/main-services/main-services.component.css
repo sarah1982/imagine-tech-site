@@ -26,15 +26,16 @@ a>img{
   font-size: 1 rem;
   text-decoration: none;
   top:-30%;
+  margin-bottom:1%;
 }
 @media only screen and (max-width: 900px){
     .service-icon{
-        width:80%;
+        width:75%;
         height:75%;
     }
     a>img{
         position: relative;
-        top: -33%;
+        top: -35%;
     }
     .service-img-text{
         top:-28%
@@ -51,11 +52,11 @@ a>img{
     }
     .service-icon{
         width:60%;
-        height:55%;
+        height:60%;
     }
     a>img{
         position: relative;
-        top: -25%;
+        top: -29%;
     }
     .service-img-text{
         top:-10%;
