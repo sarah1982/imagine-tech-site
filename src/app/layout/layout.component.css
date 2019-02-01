@@ -12,6 +12,9 @@
     padding-top:11%;
     padding-left:15%;
   }
+  .col{
+    padding-right:4px;
+  }
   
   /* Header content */
     .container-fluid{
@@ -75,30 +78,34 @@
   .fa-border{
     border-radius: 50%;
     position: relative;
-    padding-bottom:0.7em;
     font-size: 1em;
     }
-    #face-link,#linkedin-link{
+    #face-link,#linkedin-link,#twitter{
       text-decoration: none;
       color:black;
+      cursor: pointer;
+      font-size:1.3em;
     }
     #twitter:hover{
       color:#38A1F3;
       animation: animate-icon;
       animation-duration: 0.5s;
       animation-timing-function: ease-in-out;
+      cursor: pointer;
     }
      #facebook:hover{
       color:#0084FF;
       animation: animate-icon;
       animation-duration: 0.5s;
       animation-timing-function: ease-in-out;
+      cursor: pointer;
     }
     #linkedin:hover{
       color:#0077B5;
       animation: animate-icon;
       animation-duration: 0.5s;
       animation-timing-function: ease-in-out;
+      cursor: pointer;
     }
   
     @keyframes animate-icon{
@@ -128,6 +135,9 @@
     position: relative;
     z-index: 888;
   }
+  #contact{
+    font-size: 1.1em;
+  }
 
   @media only screen and (min-width:600px){
     .section-intro{
@@ -153,6 +163,7 @@
     }
     .carousel-item{
       font-size: 1.2em;
+
     }
     #contact{
       font-size: 1em;
@@ -160,4 +171,13 @@
     #backgroundimage{
       opacity: 0.3;
     }
+    #twitter,#facebook-link,#linkedin-link{
+      font-size:1em;
+    }
+  }
+  @media only screen and (max-width:340px){
+    h1{
+      font-size:1.3em;
+    }
+
   }

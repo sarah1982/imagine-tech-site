@@ -45,6 +45,9 @@ span a{
 div.btn-group.white{
   padding-left:30%;
 }
+#twitter,#facebook,#linkedin{
+  font-size:1em;
+}
  #twitter:hover{
   color:#38A1F3;
 }
