@@ -15,10 +15,13 @@
   height:100%;
   padding-top:10px;  
   font-family: 'oswald','sans-serif';
-  font-size:1rem;
+  font-size:0.9rem;
 }
 .bg-footer{
   background-color: black;
+}
+.col{
+  padding:1%;
 }
 p{
   color:#fff;
@@ -62,6 +65,7 @@ h6{
   color:white;
   margin-left: 20px;
   text-align: center;
+  font-size:0.8rem;
 }
 li{
   text-align:center;

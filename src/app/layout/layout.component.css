@@ -24,6 +24,15 @@
     .row{
       margin:0;
     }
+    .background{
+      background: #fff url("/assets/img/Background.png")no-repeat top right;
+      background-size:cover;
+      height:700px;
+      border-bottom: 3px solid rgb(51, 152, 255);
+      padding-top: 5%;
+      position: relative;
+
+    }
     #backgroundimage
   {
      height: auto;
@@ -45,6 +54,9 @@
     text-align: center;
     font-size:2em;
     padding-left: 0.5em;
+  }
+  span{
+    display: inline;
   }
   /* carousel content */
   .carousel-item {
@@ -122,7 +134,16 @@
       padding-bottom:15%;
   
     }
+    #backgroundimage{
+      opacity: 0.5;
+    }
    
+  }
+    @media (max-width:600px) and (min-width:400px) {
+
+    #backgroundimage{
+      opacity: 0.5;
+    }
   }
   @media only screen and (max-width:414px){
   
@@ -135,5 +156,8 @@
     }
     #contact{
       font-size: 1em;
+    }
+    #backgroundimage{
+      opacity: 0.3;
     }
   }
