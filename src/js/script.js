@@ -5,11 +5,6 @@ $(document).ready(function() {
 	// jQuery code
 
 
-
-//	$("[data-fancybox]").fancybox();
-
-
-
 });
 // jquery end
 

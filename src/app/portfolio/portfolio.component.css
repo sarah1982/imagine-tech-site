@@ -1,4 +1,4 @@
-
+/* general styling */
 .container{
   margin-right:0px;
   width:100%;
@@ -10,123 +10,131 @@ h1{
   font-family: 'Oswald','sans-serif';
   padding-bottom: 5%;
 }
-
-
 .bg{
   background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
   border-bottom: 3px solid rgb(51, 152, 255);
   margin-top:20px;
   padding-top:20px;
-
 }
-
 .hline-bottom {
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(0, 98, 204); 
+  border-bottom: 2px solid rgb(0, 98, 204);
 }
-
-
-
+/* image alignment */
 .img-wrap {
   text-align: center;
-  display: block; 
+  display: block;
 }
-
-
-
-  .img-wrap img {
-    max-width: 100%; }
-    .card-product {
-      margin-bottom: 1rem;
-     }
-      .card-product:after {
-        content: "";
-        display: table;
-        clear: both;
-        visibility: hidden; }
-      .card-product .img-wrap {
-        border-radius: 0.2rem 0.2rem 0 0;
-        overflow: hidden;
-        position: relative;
-        height: 220px;
-        text-align: center; }
-        .card-product .img-wrap img {
-          max-height: 100%;
-          max-width: 100%;
-          width: auto;
-          display: inline-block;
-          -o-object-fit: cover;
-             object-fit: cover; }
-      .card-product .info-wrap {
-        overflow: hidden;
-        padding: 15px;
-        border-top: 1px solid #eee; }
-      .card-product .action-wrap {
-        padding-top: 4px;
-        margin-top: 4px; }
-      .card-product .bottom-wrap {
-        padding: 15px;
-        border-top: 1px solid #eee; }
-      .card-product .title {
-        margin-top: 0; 
-        color:black;
-      font-family: 'Oswald';}
-      .card-product .btn-overlay {
-        -webkit-transition: .5s;
-        transition: .5s;
-        opacity: 0;
-        left: 0;
-        bottom: 0;
-        color: #fff;
-        width: 100%;
-        padding: 5px 0;
-        font-size: 12px;
-        text-align: center;
-        position: absolute;
-        text-transform: uppercase;
-        background: rgba(0, 0, 0, 0.5); }
-      .card-product:hover .btn-overlay {
-        opacity: 1; }
-      .card-product:hover {
-        -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
-                box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
-        -webkit-transition: .5s;
-        transition: .5s; }
-   
-      .card {
-          /* Add shadows to create the "card" effect */
-          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-          transition: 0.3s;
-        }
-        
-        /* On mouse-over, add a deeper shadow */
-      .card:hover {
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
+.img-wrap img {
+  max-width: 100%;
+}
+.card-product {
+  margin-bottom: 1rem;
+}
+.card-product:after {
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+}
+.card-product .img-wrap {
+  border-radius: 0.2rem 0.2rem 0 0;
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+  text-align: center;
+}
+.card-product .img-wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.card-product .info-wrap {
+  overflow: hidden;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-product .action-wrap {
+  padding-top: 4px;
+  margin-top: 4px;
+}
+.card-product .bottom-wrap {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+.card-product .title {
+  margin-top: 0;
+  color:black;
+  font-family: 'Oswald';
+}
+.card-product .btn-overlay {
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.5);
+}
+.card-product:hover .btn-overlay {
+  opacity: 1;
+}
+.card-product:hover {
+  -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+  box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.card {
+ /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 .img {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-
-.img:hover {opacity: 0.7;}
-
+.img:hover {
+ opacity: 0.7;
+}
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+ /* Hidden by default */
+  position: fixed;
+ /* Stay in place */
+  z-index: 1;
+ /* Sit on top */
+  padding-top: 100px;
+ /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  width: 100%;
+ /* Full width */
+  height: 100%;
+ /* Full height */
+  overflow: auto;
+ /* Enable scroll if needed */
+  background-color: rgb(0,0,0);
+ /* Fallback color */
+  background-color: rgba(0,0,0,0.9);
+ /* Black w/ opacity */
 }
-
 /* Modal Content (image) */
 .modal-content {
   margin: auto;
@@ -134,7 +142,6 @@ h1{
   width: 80%;
   max-width: 700px;
 }
-
 /* Caption of Modal Image */
 #caption {
   margin: auto;
@@ -146,25 +153,29 @@ h1{
   padding: 10px 0;
   height: 150px;
 }
-
 /* Add Animation */
-.modal-content, #caption {  
+.modal-content, #caption {
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+  from {
+     -webkit-transform:scale(0)
+ }
+  to {
+     -webkit-transform:scale(1)
+ }
 }
-
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+  from {
+     transform:scale(0)
+ }
+  to {
+     transform:scale(1)
+ }
 }
-
 /* The Close Button */
 .close {
   color: #f1f1f1;
@@ -172,28 +183,23 @@ h1{
   font-weight: bold;
   transition: 0.3s;
 }
-
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
-
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
-    width: 100%;
-  }
+      width: 100%;
+ }
 }
-
 /* CTA */
-
 .modal{
   z-index: 888;
 }
 @media only screen and (max-width: 1000px){
   .section-intro {
-    padding-bottom:20%;
-  }
+      padding-bottom:20%;
+ }
 }

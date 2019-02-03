@@ -1,7 +1,8 @@
+/*  container sizing */
 .container-fluid{
     box-sizing: border-box;
 }
-
+/* background */
 .bg{
     background-color: black;
 }
@@ -17,7 +18,7 @@ a>img{
     position: relative;
     top: -40%;
 }
-
+/* text styling */
 .service-img-text{
   color:#fff;
   font-family: 'Oswald','sans-serif';
@@ -28,6 +29,7 @@ a>img{
   top:-30%;
   margin-bottom:1%;
 }
+/* media queries */
 @media only screen and (max-width: 900px){
     .service-icon{
         width:75%;
@@ -41,9 +43,6 @@ a>img{
         top:-28%
     }
 }
-
-
-
 
 @media only screen and (max-width: 496px){
     .col{

@@ -1,4 +1,4 @@
-
+/* background */
   .img-bg{
     padding:4%;
     background-color: black;
@@ -107,7 +107,7 @@
       animation-timing-function: ease-in-out;
       cursor: pointer;
     }
-  
+  /* animatiion  for social */
     @keyframes animate-icon{
     
       0% {

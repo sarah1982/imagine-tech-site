@@ -1,5 +1,5 @@
 
-
+/*Headings */
 .section-intro{
   padding:3%;
 }
@@ -15,7 +15,7 @@ h1{
   font-family: 'Oswald','sans-serif';
   padding-bottom: 5%;
 }
-
+/* Background*/
 .bg{
   background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;

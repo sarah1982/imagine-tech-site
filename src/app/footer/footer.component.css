@@ -1,3 +1,4 @@
+/* setting */
 .container{
   margin-right:0px;
   margin-left:0px;
@@ -17,9 +18,12 @@
   font-family: 'oswald','sans-serif';
   font-size:0.9rem;
 }
+/* background */
 .bg-footer{
   background-color: black;
 }
+
+/* styling for the footer elements*/
 .col{
   padding:1%;
 }
@@ -74,6 +78,8 @@ li{
   text-align:center;
   padding-bottom: 5%;
 }
+
+/*media queries */
 @media only screen and (min-width:540px){
   div.btn-group.white{
     padding-left:2%;
@@ -84,13 +90,10 @@ li{
     text-align: center;
     padding-left: 35%;
     font-size:1rem;
-
 }
 }
 
 @media only screen and (min-width:640px){
-
-  
   div.btn-group.white{
     padding-left:15%;
     font-size:1rem;

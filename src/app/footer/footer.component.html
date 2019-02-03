@@ -1,96 +1,65 @@
+<app-mainfooter *ngIf="isOn"></app-mainfooter>
+<footer class="section-footer bg-footer col-sm-12 col-md-12 col-lg-12">
 
+  <section class="footer-top padding-top">
+    <div class="row">
+      <div class="col col-sm-3 col-md-3 col-lg-3 col-xs-3 white">
+        <h5 class="title"> Services</h5>
+        <ul class="list-unstyled">
+          <li> <a routerLink="/market">Marketing</a></li>
+          <li> <a routerLink="/react">React App</a></li>
+          <li> <a routerLink="/userExp">UI/UX Design</a></li>
+          <li> <a routerLink="/backend">Backend</a></li>
+        </ul>
+      </div>
+      <div class="col col-sm-3  col-md-3 col-lg-3 col-xs-3 white">
+        <h5 class="title">About</h5>
+        <ul class="list-unstyled">
+          <li> <a routerLink="/about"> About Us </a></li>
+          <li> <a routerLink="/contact"> Contact Us</a></li>
+          <li> <a routerLink="/team"> Team</a></li>
 
-<!---<footer class="section-footer bg-footer">
-    <div class="container">
-      <section class="footer-bottom row">
-        <div class="col-sm-12 col-lg-12">
+        </ul>
+      </div>
+      <div class="col col-sm-3  col-md-3 col-lg-3 col-xs-3 white">
+        <h5 class="title">Careers</h5>
+        <ul class="list-unstyled">
+          <li> <a routerLink="/comingsoon">Our Work</a></li>
+          <li> <a routerLink="/opportunities"> Opportunties </a></li>
 
-          <p class="text-center">Have a great idea need our help?</p>
-        </div>
+        </ul>
+      </div>
 
-
-      </section>
-    </div>
-
-  </footer>-->
-  <app-mainfooter *ngIf="isOn"></app-mainfooter>
-  <footer class="section-footer bg-footer col-sm-12 col-md-12 col-lg-12">
-
-          <section class="footer-top padding-top">
-              <div class="row">
-                <div class="col col-sm-3 col-md-3 col-lg-3 col-xs-3 white">
-                  <h5 class="title"> Services</h5>
-                  <ul class="list-unstyled">
-                    <li> <a routerLink="/market">Marketing</a></li>
-                    <li> <a routerLink="/react">React App</a></li>
-                    <li> <a routerLink="/userExp">UI/UX Design</a></li>
-                    <li> <a routerLink="/backend">Backend</a></li>
-                  </ul>
-                </div>
-                <div class="col col-sm-3  col-md-3 col-lg-3 col-xs-3 white">
-                  <h5 class="title">About</h5>
-                  <ul class="list-unstyled">
-                    <li> <a routerLink="/about"> About Us </a></li>
-                    <li> <a routerLink="/contact"> Contact Us</a></li>
-                    <li> <a routerLink="/team"> Team</a></li>
-
-                  </ul>
-                </div>
-                <div class="col col-sm-3  col-md-3 col-lg-3 col-xs-3 white">
-                  <h5 class="title">Careers</h5>
-                  <ul class="list-unstyled">
-                    <li> <a routerLink="/comingsoon">Our Work</a></li>
-                    <li> <a routerLink="/opportunities"> Opportunties </a></li>
-              
-                  </ul>
-                </div>
-                
-                <div class="col col-sm-3 col-md-3 col-lg-3 col-xs-3">
-                  <article class="white">
-                    <h5 class="title">Contacts</h5>
-                    <ul class="list-unstyled">
-                      <li> <a href="tel:9085460561">908.546.0561</a></li>
-                    <li> <a href="mailto:office@imaginetech.net" target="_top">office@imaginetech.net</a></li>
-                    </ul>
-                     <div class="btn-group white">
-                        <p class="text-center">
-                            <span class="fa-stack fa-lg">
-                                <a href="https://www.linkedin.com/in/jahaziel-vazquez/" id="twitter"><i class="fa fa-twitter fa-stack-1x"></i></a>
-                            </span>
-                              <span class="fa-stack fa-lg">
-                                  <a href="https://www.facebook.com/imaginetechengineering/" id="facebook" target="_blank"><i class="fa fa-facebook fa-stack-1x"></i></a>
-                              </span>
-                                <span class="fa-stack fa-lg">
-                                    <a href="https://www.linkedin.com/company/imaginetechengineering/about/" target="_blank" id="linkedin"><i class="fa fa-linkedin fa-stack-1x"></i></a>
-                                </span>
-                        </p>
-                    </div>
-                  </article>
-                </div>
-              </div> <!-- row.// -->
-              <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                <h6 class="text-center">&copy; Copyright By ImagineTech 2018</h6>
-                </div>
-              </div>
-              <br> 
-            </section>
-     <!---   <section class="footer-bottom row">
-          <div class="col-lg-12">
-            <p class="text-center"> Have a great idea need our help?</p>
-          </div>
-          <div class="col-lg-12">
+      <div class="col col-sm-3 col-md-3 col-lg-3 col-xs-3">
+        <article class="white">
+          <h5 class="title">Contacts</h5>
+          <ul class="list-unstyled">
+            <li> <a href="tel:9085460561">908.546.0561</a></li>
+            <li> <a href="mailto:office@imaginetech.net" target="_top">office@imaginetech.net</a></li>
+          </ul>
+          <div class="btn-group white">
             <p class="text-center">
-                <span class="fa-stack fa-lg">
-                    <a href="https://www.linkedin.com/in/jahaziel-vazquez/" id="twitter"><i class="fa fa-twitter fa-stack-1x"></i></a>
-                </span>
-                  <span class="fa-stack fa-lg">
-                      <a href="https://www.linkedin.com/in/jahaziel-vazquez/" id="facebook"><i class="fa fa-facebook fa-stack-1x"></i></a>
-                  </span>
-                    <span class="fa-stack fa-lg">
-                        <a href="https://www.linkedin.com/in/jahaziel-vazquez/" id="linkedin"><i class="fa fa-linkedin fa-stack-1x"></i></a>
-                    </span>
+              <span class="fa-stack fa-lg">
+                <a href="https://www.linkedin.com/in/jahaziel-vazquez/" id="twitter"><i class="fa fa-twitter fa-stack-1x"></i></a>
+              </span>
+              <span class="fa-stack fa-lg">
+                <a href="https://www.facebook.com/imaginetechengineering/" id="facebook" target="_blank"><i class="fa fa-facebook fa-stack-1x"></i></a>
+              </span>
+              <span class="fa-stack fa-lg">
+                <a href="https://www.linkedin.com/company/imaginetechengineering/about/" target="_blank" id="linkedin"><i
+                    class="fa fa-linkedin fa-stack-1x"></i></a>
+              </span>
             </p>
           </div>
-        </section>-->
-    </footer>
+        </article>
+      </div>
+    </div> <!-- row.// -->
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <h6 class="text-center">&copy; Copyright By ImagineTech 2018</h6>
+      </div>
+    </div>
+    <br>
+  </section>
+
+</footer>

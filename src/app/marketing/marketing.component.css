@@ -1,3 +1,5 @@
+
+/* Headings */
 .section-intro{
   padding:3%;
 }
@@ -13,7 +15,7 @@ h1{
   font-family: 'Oswald','sans-serif';
   padding-bottom: 5%;
 }
-
+/* background */
 .bg{
   background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
@@ -30,12 +32,8 @@ h1{
 
 .hline-bottom {
   padding-bottom: 10px;
-  border-bottom: 2px solid rgb(0, 98, 204); /* whichever color you prefer */
+  border-bottom: 2px solid rgb(0, 98, 204);
 }
-
-
-
-
 
 @media only screen and (max-width: 700px){
   .section-intro {

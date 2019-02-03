@@ -1,79 +1,65 @@
-<!--<img id="myImg" src="../../assets/img/dog.jpeg" alt="Snow" (click)="getImg('myImg')" style="width:100%;max-width:300px">
+<section class="section-intro bg  text-center">
+    <div class="container d-flex flex-column" style="min-height:80vh;">
+        <div class="col-lg-8 col-sm-12 text-left mr-auto" id="container-padding">
+            <h1 class="display-10 mb-8 hline-bottom wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1.5s">Portfolio</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
+                <figure class="card card-product">
+                    <div class="img img-wrap"><img id="angular" src="/assets/img/AngularDesign.jpg" alt="AngularDesign"
+                            (click)="getImg('angular')" style="width:100%;max-width:300px"></div>
+                    <div id="img-modal" class="modal">
+                        <span class="close pull-right" (click)="closeImg()">X</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">AngularDesign</a>
 
-<div id="myModal" class="modal">
-  <span class="close" (click)="closeImg()">close</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-<img id="mySnow" src="../../assets/img/dish.jpg" alt="Snow" (click)="getImg('mySnow')" style="width:100%;max-width:300px">
+                    </figcaption>
 
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-<img id="myPin" src="../../assets/img/cms.jpg" alt="Snow" (click)="getImg('myPin')" style="width:100%;max-width:300px">
+                </figure>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
 
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>-->
+                <figure class="card card-product">
+                    <div class="img img-wrap"><img id="kupido" src="/assets/img/splashpage.png" alt="Kupido" (click)="getImg('kupido')"
+                            style="width:100%;max-width:300px"></div>
+                    <div id="img-modal" class="modal">
+                        <span class="close" (click)="closeImg()">X</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">Kupido</a>
 
-  <section class="section-intro bg  text-center">
-      <div class="container d-flex flex-column" style="min-height:80vh;">
-          <div class="col-lg-8 col-sm-12 text-left mr-auto" id="container-padding">
-              <h1 class="display-10 mb-8 hline-bottom wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1.5s">Portfolio</h1>
-          </div>
-          <div class="row">
-               <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
-                 <figure class="card card-product">
-                        <div class="img img-wrap"><img id="angular" src="/assets/img/AngularDesign.jpg" alt="AngularDesign" (click)="getImg('angular')" style="width:100%;max-width:300px"></div>
-                          <div id="img-modal" class="modal">
-                              <span class="close pull-right" (click)="closeImg()">X</span>
-                                <img class="modal-content" id="img01">
-                                <div id="caption"></div>
-                            </div>
-                            <figcaption class="info-wrap">
-                                <a href="#" class="title">AngularDesign</a>
-                    
-                              </figcaption>
-                
-                    </figure>
-               </div>
-               <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">
+                <figure class="card card-product">
 
-                  <figure class="card card-product">
-                      <div class="img img-wrap"><img id="kupido" src="/assets/img/splashpage.png" alt="Kupido" (click)="getImg('kupido')" style="width:100%;max-width:300px"></div>
-                          <div id="img-modal" class="modal">
-                              <span class="close" (click)="closeImg()">X</span>
-                         <img class="modal-content" id="img01">
-                          <div id="caption"></div>
-                          </div>
-                          <figcaption class="info-wrap">
-                              <a href="#" class="title">Kupido</a>
-                  
-                            </figcaption>
-                  </figure>
-               </div>
-              <div class="col-md-6 col-lg-4 col-sm-6 mx-auto">      
-                  <figure class="card card-product">
-        
-                         <div class="img img-wrap"> <img id="truck" src="/assets/img/truck.png" alt="Trucking Service" (click)="getImg('truck')" style="width:100%;max-width:300px"></div>
-                          <div id="img-modal" class="modal">
-                              <span class="close" (click)="closeImg()">X</span>
-                          <img class="modal-content" id="img01">
-                          <div id="caption"></div>
-                          </div>
-                          <figcaption class="info-wrap">
-                              <a href="#" class="title">UnitedTruck</a>
-                  
-                            </figcaption>
+                    <div class="img img-wrap"> <img id="truck" src="/assets/img/truck.png" alt="Trucking Service"
+                            (click)="getImg('truck')" style="width:100%;max-width:300px"></div>
+                    <div id="img-modal" class="modal">
+                        <span class="close" (click)="closeImg()">X</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <figcaption class="info-wrap">
+                        <a href="#" class="title">UnitedTruck</a>
+
+                    </figcaption>
                 </figure>
 
-                </div>
+            </div>
 
-                
-                </div>
-                <div class="container-2 wow flipInX" data-wow-delay="0.3s" data-wow-duration="1.5s">
-                        <div class="btn btn-two">
-                          <a routerLink="/contact"><span id="contact">Request Free Estimate </span></a>
-                        </div>
-                </div>
-                </div>
-  </section>
-    
+
+        </div>
+        <div class="container-2 wow flipInX" data-wow-delay="0.3s" data-wow-duration="1.5s">
+            <div class="btn btn-two">
+                <a routerLink="/contact"><span id="contact">Request Free Estimate </span></a>
+            </div>
+        </div>
+    </div>
+</section>

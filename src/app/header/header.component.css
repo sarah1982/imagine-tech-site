@@ -6,7 +6,7 @@
 .logo{
   width:60%;
 }
-
+/* for the separator */
 .nav-item{
   position: relative;
   color: #fff;
@@ -28,7 +28,7 @@
   content:none;
 }
 
-
+/* item styling */
 .nav-item .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -40,6 +40,7 @@ a{
   color: white;
 
 }
+/* for the phone */
 .icon-wrap{
   position:relative;
   top:10%;

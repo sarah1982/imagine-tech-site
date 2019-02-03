@@ -1,20 +1,16 @@
-
+/*Heading*/
 .container{
   margin-right:0px;
   width:100%;
   height:100%;
   margin-top:50px;
   padding:0;
-
- 
-
 }
 h1{
   font-weight: bold;
   font-family: 'Oswald','sans-serif';
   padding-bottom: 5%;
-}
-
+}/*background*/
 .bg{
   background: #fff url("/assets/img/sectionbg.png")no-repeat top right;
   background-size:cover;
@@ -39,7 +35,7 @@ h1,p{
   opacity: 0;
   animation-fill-mode: forwards;
 }
-
+/*Animation*/
 @keyframes chainReaction {
   0% {
     opacity: 0;
@@ -63,7 +59,7 @@ p{
   margin-top:32px;
   margin-bottom:32px;
 }
-
+/*Media query*/
 @media only screen and (max-width: 700px){
   .section-intro {
     padding-bottom:20%;
