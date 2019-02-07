@@ -1,10 +1,5 @@
 {
-
   "hosting": {
-    "rewrites": [ {
-      "source": "**",
-      "destination": "/index.html"
-     } ],
     "public": "dist/Imagine",
     "ignore": [
       "firebase.json",
