@@ -29,6 +29,9 @@ h1{
 .img-wrap img {
   max-width: 100%;
 }
+.title{
+  cursor: pointer;
+}
 .card-product {
   margin-bottom: 1rem;
 }
